@@ -1,4 +1,4 @@
-# docker-templateshttps://hub.docker.com/r/sctx/overseerr
+# docker-templates
 
 ## Description
 
