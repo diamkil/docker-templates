@@ -26,6 +26,7 @@
         <HostPort>5055</HostPort>
         <ContainerPort>5055</ContainerPort>
         <Protocol>tcp</Protocol>
+      </Port>
     </Publish>
   </Networking>
   <Environment>
