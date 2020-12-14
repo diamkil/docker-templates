@@ -1,4 +1,5 @@
 # docker-templates
+Docker templates made by me for unRaid CA. Most will not be my projects, or containers but the original creator's. Some might be in the future!
 
 ## Description
 
