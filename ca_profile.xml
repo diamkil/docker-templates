@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/diamkil/docker-templates/master/diamkil/images/diamkil.png</Icon>
+  <Profile>
+    I create custom templates for docker hub images that are not on unRaid by bigger sources like binhex or linuxserver
+  </Profile>
+</Maintainer>
