@@ -8,7 +8,7 @@
     [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
   Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex![br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where overseer will store it's configuration files.[br]
+    [b]/app/config[/b] This is where overseer will store it's configuration files.[br]
   </Description>
   <Overview>
   Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services such as Sonarr, Radarr and Plex!
