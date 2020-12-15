@@ -55,6 +55,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:5055]/</WebUI>
-  <Icon>https://i.imgur.com/TMoEG7g.png</Icon>
+  <Icon>https://raw.githubusercontent.com/diamkil/docker-templates/master/diamkil/os_logo_square.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
