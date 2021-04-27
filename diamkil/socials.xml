@@ -6,12 +6,15 @@
   <Name>Socials</Name>
   <Description>
     [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
-    Socials is an a website similar to tappy.tech but open source. Your url is http://exemple.com/(user) where user.json is the file containing the info. There is mine running at socials.dkil.ca[br][br]
+    Socials is a single-page website that stores all your social media and personal websites to share. It is similar to tappy.tech, sociallinks.co, compiled.social and linktr.ee, but open-source and built on Next.js. Your url is http://exemple.com/(user) where [code]user.json[/code] is the file containing the info OR you can create a [code]default.json[/code]. There is mine running at [a href="https://socials.dkil.ca/"]socials.dkil.ca[/a][br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/app/people[/b] This is where the json files containing someone's socials will be stored. You can see the layout and info on github[br]
+    [b]/app/people[/b] This is where the json files containing someone's socials will be stored. You can see the layout and info on Github.[br]
   </Description>
   <Overview>
-  Socials is an a website similar to tappy.tech but open source. Your url is http://exemple.com/(user) where user.json is the file containing the info.
+  [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
+    Socials is a single-page website that stores all your social media and personal websites to share. It is similar to tappy.tech, sociallinks.co, compiled.social and linktr.ee, but open-source and built on Next.js. Your url is http://exemple.com/(user) where [code]user.json[/code] is the file containing the info OR you can create a [code]default.json[/code]. There is mine running at [a href="https://socials.dkil.ca/"]socials.dkil.ca[/a][br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/app/people[/b] This is where the json files containing someone's socials will be stored. You can see the layout and info on Github.[br]
   </Overview>
   <Support>https://forums.unraid.net/topic/105177-support-diamkil-socials/</Support>
   <Registry>https://registry.hub.docker.com/r/diamkil/socials/</Registry>
@@ -23,7 +26,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>7574</HostPort>
+        <HostPort>3000</HostPort>
         <ContainerPort>3000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -54,7 +57,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:7574]/</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <Icon>https://raw.githubusercontent.com/diamkil/docker-templates/master/diamkil/images/diamkil.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
