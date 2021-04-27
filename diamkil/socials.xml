@@ -57,7 +57,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:7574]/</WebUI>
   <Icon>https://raw.githubusercontent.com/diamkil/docker-templates/master/diamkil/images/diamkil.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
