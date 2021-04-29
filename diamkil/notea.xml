@@ -68,6 +68,10 @@
       <Name>PASSWORD</Name>
       <Value>notea</Value>
     </Variable>
+    <Variable>
+      <Name>COOKIE_SECURE</Name>
+      <Value>false</Value>
+    </Variable>
   </Environment>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <Icon>https://raw.githubusercontent.com/diamkil/docker-templates/master/diamkil/images/notea.png</Icon>
