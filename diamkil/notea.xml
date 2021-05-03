@@ -17,7 +17,7 @@
   <Project>https://github.com/diamkil/docker-notea</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-    <Networking>
+  <Networking>
     <Mode>bridge</Mode>
   </Networking>
   <Data>
