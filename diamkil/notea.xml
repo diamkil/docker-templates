@@ -38,7 +38,7 @@
     Description="Port for Notea WebUI"
     Type="Port"
     Display="always"
-    Required="True"
+    Required="true"
     Mask="false"
   />
   <Config
@@ -49,7 +49,7 @@
     Description="Port for MinIO WebUI (optional)"
     Type="Port"
     Display="always"
-    Required="False"
+    Required="false"
     Mask="false"
   />
   <Config
@@ -60,7 +60,7 @@
     Description="Set the password to use on Notea's Website"
     Type="Variable"
     Display="always"
-    Required="True"
+    Required="true"
     Mask="false"
   />
   <Config
@@ -71,7 +71,7 @@
     Description="User for MinIO Backend"
     Type="Variable"
     Display="always"
-    Required="True"
+    Required="true"
     Mask="false"
   />
   <Config
@@ -82,7 +82,7 @@
     Description="Password for MinIO Backend"
     Type="Variable"
     Display="always"
-    Required="True"
+    Required="true"
     Mask="false"
   />
 </Containers>
