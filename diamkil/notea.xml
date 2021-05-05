@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/diamkil/docker-templates/master/diamkil/notea.xml</TemplateURL>
-  <Beta>True</Beta>
+  <Beta>False</Beta>
   <Category>Productivity</Category>
   <Name>Notea</Name>
   <Description>
@@ -80,6 +80,17 @@
     Default=""
     Mode=""
     Description="Password for MinIO Backend"
+    Type="Variable"
+    Display="always"
+    Required="true"
+    Mask="false"
+  />
+  <Config
+    Name="MinIO URL"
+    Target="STORE_URL"
+    Default="(external-ip):9000"
+    Mode=""
+    Description="Url mapped to this container on port 9000. If you don't need Pictures working, set this to localhost:9000"
     Type="Variable"
     Display="always"
     Required="true"
