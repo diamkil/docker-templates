@@ -46,7 +46,7 @@
     Target="9000"
     Default=""
     Mode="tcp"
-    Description="Port for MinIO WebUI (optional)"
+    Description="Port for MinIO WebUI"
     Type="Port"
     Display="always"
     Required="false"
