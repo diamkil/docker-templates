@@ -85,15 +85,4 @@
     Required="true"
     Mask="false"
   />
-  <Config
-    Name="MinIO URL"
-    Target="STORE_URL"
-    Default="http://(external-ip):9000"
-    Mode=""
-    Description="Url mapped to this container on port 9000. If you don't need Pictures working, set this to http://localhost:9000"
-    Type="Variable"
-    Display="always"
-    Required="true"
-    Mask="false"
-  />
 </Containers>
