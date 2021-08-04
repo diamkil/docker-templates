@@ -18,7 +18,7 @@
   </Overview>
   <Support>https://forums.unraid.net/topic/105177-support-diamkil-socials/</Support>
   <Registry>https://registry.hub.docker.com/r/diamkil/socials/</Registry>
-  <Repository>diamkil/socials</Repository>
+  <Repository>ghcr.io/diamkil/socials</Repository>
   <Project>https://github.com/diamkil/socials</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
